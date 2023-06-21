@@ -317,6 +317,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6cc7657cb50054e44ac4375a1eb70e7c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  target: {fileID: 1674395394}
+  minDistance: 3
+  maxDistance: 30
+  wheelSpeed: 500
+  xMoveSpeed: 500
+  yMoveSpeed: 250
 --- !u!1 &1603604774 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4931088058016434573, guid: f76b2b1e7783705418818e8f1bca972c, type: 3}
@@ -356,11 +362,11 @@ GameObject:
   - component: {fileID: 1674395393}
   - component: {fileID: 1674395392}
   - component: {fileID: 1674395391}
-  - component: {fileID: 1674395396}
   - component: {fileID: 1674395390}
   - component: {fileID: 1674395389}
   - component: {fileID: 1674395388}
   - component: {fileID: 1674395395}
+  - component: {fileID: 1674395396}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
